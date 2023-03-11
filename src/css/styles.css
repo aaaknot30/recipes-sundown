@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #444;
+  font-size: 15px;
+
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid #000;
+  background-color: white;
+}
+
+header {
+  background-image: url('../img/sundown_top_background3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.header-item {
+  margin-top: 1rem;
+
+}
+
+.header-item a {
+  text-decoration: none;
+}
+
+h1 {
+  padding: 0 0 0 1.1rem;
+  margin: 0;
+  color: white;
+  font-size: 3.5rem;
+  text-shadow: 3px 3px 2px #222;
+  font-family: 'Anton', sans-serif;
+
+}
+
+h2 {
+  margin: .5rem 0 0 2rem;
+  background-color: #555;
+  color: white;
+  display: inline-block;
+  padding: .2rem .5rem .2rem .5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+h3 {
+  margin: .5rem 0 0 0;
+}
+
+/* .links {
+  display: none;
+} */
+
+p {
+  margin: .5rem 0 0 0;
+  padding: 0 1rem 0 0;
+}
+
+img {
+  width: 14rem;
+  border: 2px solid #777;
+  border-radius: 1rem;
+  margin: .5rem 0 0 0;
+  box-shadow: 3px 3px 4px #777;
+
+}
+
+button {
+  background-color: white;
+  padding: .2rem .7rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover,
+button:focus {
+  background-color: #ffce46;
+}
+
+
+.button {
+  background-color: green;
+  padding: .2rem .7rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 0 .5rem;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #bbb;
+  color: #222;
+}
+
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 12rem;
+}
+
+
+.flexRow {
+  display: flex;
+}
+
+.welcome {
+  margin: 0 0 0 1rem;
+}
+
+.top-section {
+  margin: 0 0 0 1rem;
+  padding: 0 0 1rem 0;
+}
+
+.title {
+  color: #222;
+  background-color: #fff;
+  font-size: 1.8rem;
+  margin: .5rem 0 0 -1rem;
+  padding-bottom: 0;
+}
+
+.title-para {
+  margin: 0 0 1rem 3rem;
+}
+
+.links div {
+  padding: 0 4rem 0 0rem;
+}
+
+ul {
+  margin: 0 1rem 0 0;
+}
+
+form {
+  margin: 0 1rem .7rem 0;
+  text-align: right;
+}
+
+form a {
+  color: white;
+  font-weight: 700;
+  margin: 0 0 0 .5rem;
+  font-family: 'Rubik', sans-serif;
+  text-shadow: 1px 1px 1px #222;
+  font-size: 1rem;
+  padding: 0 .3rem 0 1.3rem;
+}
+
+input[type=text] {
+  width: 10rem;
+  padding: .1rem 1rem;
+  border-radius: 1rem;
+  margin: 0 0rem 0 1rem;
+  border: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  ;
+  background-color: #e6edff;
+}
+
+footer {
+  text-align: center;
+  height: 1.5rem;
+  color: white;
+  padding: .5rem 0 .5rem 0;
+  background-image: url('../img/sundown_bottom_background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: lightgreen;
+}
+
+.content-section {
+  margin: 1rem 0 2rem 2rem;
+}
+
+.recipeCard {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1rem 0;
+  border: 1px solid #333;
+  border-radius: 1rem;
+  max-width: 90%;
+  padding: 1rem 0 1rem 1rem;
+  margin: 0 0 1.5rem 1rem;
+}
+
+.ingedients-width {
+  width: 20rem;
+}
+
+.searchGroup {
+  margin: 1rem 0 0 1.5rem;
+}
+
+.radio-group {
+  margin: 0 0 1rem 1.5rem;
+}
+
+input[type=radio] {
+  border: none;
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.clearBtn {
+  background-color: white;
+  color: black;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: .8rem;
+  text-shadow: none;
+}
+
+
+@media screen and (max-width: 1290px) {
+  img {
+    width: 8rem;
+  }
+
+  .links,
+  h3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  img {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+
+}
