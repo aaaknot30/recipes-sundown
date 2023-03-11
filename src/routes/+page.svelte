@@ -92,7 +92,6 @@
 
 {#each data.recipes.hits.slice(num, num+1) as hit}
 
-
 <h2>{hit.recipe.label}</h2>
   <div class="recipeCard">
     <div class="flexRow">
@@ -160,12 +159,22 @@
 {/each}
 
 <style>
-
+/* * {
+  border: 1px solid blue;
+} */
   .homeSection div {
     width: 100%;
     text-align: left;
     min-width: 160px;
     padding: 0;
+  }
+
+  form {
+    margin: 0;
+  }
+
+  .radio-group {
+    margin-bottom: 0;
   }
 
 
