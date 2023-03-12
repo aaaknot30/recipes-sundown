@@ -31,7 +31,7 @@ export const load = (async ({ params, fetch }) => {
   }
 
 
-  const results = await fetch(`https://api.edamam.com/api/recipes/v2?app_id=8383a2f8&app_key=81ec33688b0e78a1edf0a24ec5e05f45&type=public&cuisineType=${search}`, {
+  const results = await fetch(`https://api.edamam.com/api/recipes/v2?random=true&app_id=8383a2f8&app_key=81ec33688b0e78a1edf0a24ec5e05f45&type=public&cuisineType=${search}`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
