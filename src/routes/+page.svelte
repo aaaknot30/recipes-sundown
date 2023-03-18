@@ -170,11 +170,12 @@
   }
 
   form {
-    margin: 0;
+    margin: 1rem 0 0 0;
   }
 
   .radio-group {
     margin-bottom: 0;
+    margin-top: .5rem;
   }
 
 
