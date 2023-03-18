@@ -178,5 +178,9 @@
     margin-top: .5rem;
   }
 
+  .ingedients-width {
+    width: 50%;
+  }
+
 
 </style>
