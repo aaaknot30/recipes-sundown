@@ -130,6 +130,8 @@
 {/each}
 
 <style>
-
+  .ingedients-width {
+    width: 50%;
+  }
 
 </style>
