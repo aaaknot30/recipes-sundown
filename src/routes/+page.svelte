@@ -132,7 +132,7 @@
           
           <p><strong>Origin:</strong> </p>
           <ul>
-            <li><a href={hit.recipe.url}>{hit.recipe.source}</a></li>
+            <li><a target="_blank" href={hit.recipe.url}>{hit.recipe.source}</a></li>
           </ul>  
 
       </div>
