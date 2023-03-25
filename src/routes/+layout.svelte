@@ -34,7 +34,7 @@
 </div>
 
   <footer>
-    By Kyle Larson, 3/2023
+    By Kyle Larson
   </footer>
 </main>
 
