@@ -28,7 +28,7 @@
   <div class="top-section">
     <h2 class="title">Home</h2>
     <p>Recipe Sundown uses the Edaman Recipe API for its content.  Edaman's database is full of recipes from various media. </p> 
-    <p>Recipe Sundown makes accessing this data a breeze.</p>
+    <p>Recipe Sundown makes accessing this data a quick and easy.</p>
     <div class="flexRow links">
 
       
